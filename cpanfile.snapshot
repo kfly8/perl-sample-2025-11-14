@@ -10,6 +10,19 @@ DISTRIBUTIONS
       File::Spec 0.80
       base 0
       perl 5.008
+  Devel-CheckCompiler-0.07
+    pathname: S/SY/SYOHEX/Devel-CheckCompiler-0.07.tar.gz
+    provides:
+      Devel::AssertC99 undef
+      Devel::CheckCompiler 0.07
+    requirements:
+      Exporter 0
+      ExtUtils::CBuilder 0
+      File::Temp 0
+      Module::Build::Tiny 0.035
+      Test::More 0.98
+      parent 0
+      perl 5.008001
   Exporter-Tiny-1.006002
     pathname: T/TO/TOBYINK/Exporter-Tiny-1.006002.tar.gz
     provides:
@@ -162,6 +175,60 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-Build-XSUtil-0.19
+    pathname: H/HI/HIDEAKIO/Module-Build-XSUtil-0.19.tar.gz
+    provides:
+      Module::Build::XSUtil 0.19
+    requirements:
+      Devel::CheckCompiler 0
+      Devel::PPPort 0
+      Exporter 0
+      ExtUtils::CBuilder 0
+      File::Basename 0
+      File::Path 0
+      Module::Build 0.4005
+      XSLoader 0
+      parent 0
+      perl 5.008001
+  Mouse-v2.6.0
+    pathname: S/SY/SYOHEX/Mouse-v2.6.0.tar.gz
+    provides:
+      Mouse v2.6.0
+      Mouse::Exporter undef
+      Mouse::Meta::Attribute undef
+      Mouse::Meta::Class undef
+      Mouse::Meta::Method undef
+      Mouse::Meta::Method::Accessor undef
+      Mouse::Meta::Method::Constructor undef
+      Mouse::Meta::Method::Delegation undef
+      Mouse::Meta::Method::Destructor undef
+      Mouse::Meta::Module undef
+      Mouse::Meta::Role undef
+      Mouse::Meta::Role::Application undef
+      Mouse::Meta::Role::Application::RoleSummation undef
+      Mouse::Meta::Role::Composite undef
+      Mouse::Meta::Role::Method undef
+      Mouse::Meta::TypeConstraint undef
+      Mouse::Object undef
+      Mouse::PurePerl undef
+      Mouse::Role v2.6.0
+      Mouse::Spec v2.6.0
+      Mouse::Tiny v2.5.12
+      Mouse::TypeRegistry undef
+      Mouse::Util v2.6.0
+      Mouse::Util::MetaRole undef
+      Mouse::Util::TypeConstraints undef
+      Squirrel undef
+      Squirrel::Role undef
+      Test::Mouse undef
+      ouse undef
+    requirements:
+      ExtUtils::CBuilder 0
+      Module::Build 0.4005
+      Module::Build::XSUtil 0.19
+      Scalar::Util 1.14
+      XSLoader 0.02
+      perl 5.010001
   Result-Simple-0.07
     pathname: K/KF/KFLY/Result-Simple-0.07.tar.gz
     provides:
@@ -266,3 +333,11 @@ DISTRIBUTIONS
       File::ShareDir 1.00
       Module::Build 0.4004
       perl 5.014
+  kura-0.09
+    pathname: K/KF/KFLY/kura-0.09.tar.gz
+    provides:
+      kura 0.09
+    requirements:
+      Module::Build::Tiny 0.035
+      Sub::Util 1.40
+      perl 5.016000
