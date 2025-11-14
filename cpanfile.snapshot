@@ -1,0 +1,268 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Class-Inspector-1.36
+    pathname: P/PL/PLICEASE/Class-Inspector-1.36.tar.gz
+    provides:
+      Class::Inspector 1.36
+      Class::Inspector::Functions 1.36
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0.80
+      base 0
+      perl 5.008
+  Exporter-Tiny-1.006002
+    pathname: T/TO/TOBYINK/Exporter-Tiny-1.006002.tar.gz
+    provides:
+      Exporter::Shiny 1.006002
+      Exporter::Tiny 1.006002
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  ExtUtils-CChecker-0.12
+    pathname: P/PE/PEVANS/ExtUtils-CChecker-0.12.tar.gz
+    provides:
+      ExtUtils::CChecker 0.12
+    requirements:
+      ExtUtils::CBuilder 0
+      Module::Build 0.4004
+      perl 5.014
+  ExtUtils-Config-0.010
+    pathname: L/LE/LEONT/ExtUtils-Config-0.010.tar.gz
+    provides:
+      ExtUtils::Config 0.010
+      ExtUtils::Config::MakeMaker 0.010
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      ExtUtils::MakeMaker::Config 0
+      perl 5.006
+      strict 0
+      warnings 0
+  ExtUtils-Helpers-0.028
+    pathname: L/LE/LEONT/ExtUtils-Helpers-0.028.tar.gz
+    provides:
+      ExtUtils::Helpers 0.028
+      ExtUtils::Helpers::Unix 0.028
+      ExtUtils::Helpers::VMS 0.028
+      ExtUtils::Helpers::Windows 0.028
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Spec::Functions 0
+      Text::ParseWords 3.24
+      strict 0
+      warnings 0
+  ExtUtils-InstallPaths-0.015
+    pathname: L/LE/LEONT/ExtUtils-InstallPaths-0.015.tar.gz
+    provides:
+      ExtUtils::InstallPaths 0.015
+    requirements:
+      Carp 0
+      ExtUtils::Config 0.009
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      perl 5.008
+      strict 0
+      warnings 0
+  File-ShareDir-1.118
+    pathname: R/RE/REHSACK/File-ShareDir-1.118.tar.gz
+    provides:
+      File::ShareDir 1.118
+    requirements:
+      Carp 0
+      Class::Inspector 1.12
+      ExtUtils::MakeMaker 0
+      File::ShareDir::Install 0.13
+      File::Spec 0.80
+      perl 5.008001
+      warnings 0
+  File-ShareDir-Install-0.14
+    pathname: E/ET/ETHER/File-ShareDir-Install-0.14.tar.gz
+    provides:
+      File::ShareDir::Install 0.14
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      IO::Dir 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Module-Build-0.4234
+    pathname: L/LE/LEONT/Module-Build-0.4234.tar.gz
+    provides:
+      Module::Build 0.4234
+      Module::Build::Base 0.4234
+      Module::Build::Compat 0.4234
+      Module::Build::Config 0.4234
+      Module::Build::Cookbook 0.4234
+      Module::Build::Dumper 0.4234
+      Module::Build::Notes 0.4234
+      Module::Build::PPMMaker 0.4234
+      Module::Build::Platform::Default 0.4234
+      Module::Build::Platform::MacOS 0.4234
+      Module::Build::Platform::Unix 0.4234
+      Module::Build::Platform::VMS 0.4234
+      Module::Build::Platform::VOS 0.4234
+      Module::Build::Platform::Windows 0.4234
+      Module::Build::Platform::aix 0.4234
+      Module::Build::Platform::cygwin 0.4234
+      Module::Build::Platform::darwin 0.4234
+      Module::Build::Platform::os2 0.4234
+      Module::Build::PodParser 0.4234
+    requirements:
+      CPAN::Meta 2.142060
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Perl::OSType 1
+      TAP::Harness 3.29
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.006001
+      version 0.87
+  Module-Build-Tiny-0.052
+    pathname: L/LE/LEONT/Module-Build-Tiny-0.052.tar.gz
+    provides:
+      Module::Build::Tiny 0.052
+    requirements:
+      CPAN::Meta 0
+      DynaLoader 0
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      ExtUtils::Config 0.003
+      ExtUtils::Helpers 0.020
+      ExtUtils::Install 0
+      ExtUtils::InstallPaths 0.002
+      ExtUtils::ParseXS 0
+      File::Basename 0
+      File::Find 0
+      File::Path 0
+      File::Spec::Functions 0
+      Getopt::Long 2.36
+      JSON::PP 2
+      Pod::Man 0
+      TAP::Harness::Env 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Result-Simple-0.07
+    pathname: K/KF/KFLY/Result-Simple-0.07.tar.gz
+    provides:
+      Result::Simple 0.07
+    requirements:
+      Exporter::Tiny 0
+      Module::Build::Tiny 0.035
+      Scope::Upper 0
+      Sub::Util 0
+      perl 5.014004
+  Scope-Upper-0.34
+    pathname: V/VP/VPIT/Scope-Upper-0.34.tar.gz
+    provides:
+      Scope::Upper 0.34
+    requirements:
+      Config 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      POSIX 0
+      Test::More 0
+      XSLoader 0
+      base 0
+      perl 5.006001
+  Syntax-Keyword-Assert-0.16
+    pathname: K/KF/KFLY/Syntax-Keyword-Assert-0.16.tar.gz
+    provides:
+      Syntax::Keyword::Assert 0.16
+    requirements:
+      ExtUtils::CBuilder 0
+      Module::Build 0.4005
+      XS::Parse::Keyword 0.36
+      perl 5.016000
+  Type-Tiny-2.008004
+    pathname: T/TO/TOBYINK/Type-Tiny-2.008004.tar.gz
+    provides:
+      Devel::TypeTiny::Perl58Compat 2.008004
+      Error::TypeTiny 2.008004
+      Error::TypeTiny::Assertion 2.008004
+      Error::TypeTiny::Compilation 2.008004
+      Error::TypeTiny::WrongNumberOfParameters 2.008004
+      Eval::TypeTiny 2.008004
+      Eval::TypeTiny::CodeAccumulator 2.008004
+      Reply::Plugin::TypeTiny 2.008004
+      Test::TypeTiny 2.008004
+      Type::Coercion 2.008004
+      Type::Coercion::FromMoose 2.008004
+      Type::Coercion::Union 2.008004
+      Type::Library 2.008004
+      Type::Params 2.008004
+      Type::Params::Alternatives 2.008004
+      Type::Params::Parameter 2.008004
+      Type::Params::Signature 2.008004
+      Type::Parser 2.008004
+      Type::Parser::AstBuilder 2.008004
+      Type::Parser::Token 2.008004
+      Type::Parser::TokenStream 2.008004
+      Type::Registry 2.008004
+      Type::Tie 2.008004
+      Type::Tie::ARRAY 2.008004
+      Type::Tie::BASE 2.008004
+      Type::Tie::HASH 2.008004
+      Type::Tie::SCALAR 2.008004
+      Type::Tiny 2.008004
+      Type::Tiny::Bitfield 2.008004
+      Type::Tiny::Class 2.008004
+      Type::Tiny::ConstrainedObject 2.008004
+      Type::Tiny::Duck 2.008004
+      Type::Tiny::Enum 2.008004
+      Type::Tiny::Intersection 2.008004
+      Type::Tiny::Role 2.008004
+      Type::Tiny::Union 2.008004
+      Type::Utils 2.008004
+      Types::Common 2.008004
+      Types::Common::Numeric 2.008004
+      Types::Common::String 2.008004
+      Types::Standard 2.008004
+      Types::Standard::ArrayRef 2.008004
+      Types::Standard::CycleTuple 2.008004
+      Types::Standard::Dict 2.008004
+      Types::Standard::HashRef 2.008004
+      Types::Standard::Map 2.008004
+      Types::Standard::ScalarRef 2.008004
+      Types::Standard::StrMatch 2.008004
+      Types::Standard::Tied 2.008004
+      Types::Standard::Tuple 2.008004
+      Types::TypeTiny 2.008004
+    requirements:
+      Exporter::Tiny 1.006000
+      ExtUtils::MakeMaker 6.17
+      perl 5.008001
+  XS-Parse-Keyword-0.49
+    pathname: P/PE/PEVANS/XS-Parse-Keyword-0.49.tar.gz
+    provides:
+      XS::Parse::Infix 0.49
+      XS::Parse::Infix::Builder 0.49
+      XS::Parse::Keyword 0.49
+      XS::Parse::Keyword::Builder 0.49
+    requirements:
+      ExtUtils::CBuilder 0
+      ExtUtils::CChecker 0.11
+      ExtUtils::ParseXS 3.16
+      File::ShareDir 1.00
+      Module::Build 0.4004
+      perl 5.014
